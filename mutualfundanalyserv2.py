@@ -33,7 +33,7 @@ st.title("📈 Mutual Fund Performance Analysis Dashboard")
 col1, col2 = st.columns([2, 1])
 with col2:
     st.markdown("""
-    <div style="text-align: center; padding: 8px; background: linear-gradient(90deg, rgba(255, 153, 51, 0.3), rgba(255, 255, 255, 0.3), rgba(19, 136, 8, 0.3)); border-radius: 8px; margin: 10px 0;">
+    <div style="text-align: center; padding: 8px; border-radius: 8px; margin: 10px 0;">
         <h5 style="color: #000080; margin: 0; font-weight: bold;">
             🇮🇳 Made in India for India 🇮🇳
         </h5>
