@@ -40,6 +40,45 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
 
+# Social sharing and action buttons
+col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
+with col1:
+    st.markdown("""
+    <div style="text-align: center; padding: 5px;">
+        <span style="color: #666; font-size: 14px;">Share</span>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""
+    <div style="text-align: center; padding: 5px;">
+        <span style="color: #666; font-size: 18px;">⭐</span>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.markdown("""
+    <div style="text-align: center; padding: 5px;">
+        <span style="color: #666; font-size: 18px;">✏️</span>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col4:
+    st.markdown("""
+    <div style="text-align: center; padding: 5px;">
+        <a href="https://github.com/Elicherla01/mutualfundanalyser" target="_blank" style="text-decoration: none;">
+            <span style="color: #666; font-size: 18px;">🐙</span>
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col5:
+    st.markdown("""
+    <div style="text-align: center; padding: 5px;">
+        <span style="color: #666; font-size: 18px;">⋯</span>
+    </div>
+    """, unsafe_allow_html=True)
+
 st.markdown("---")
 
 # File upload
