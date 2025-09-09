@@ -88,7 +88,12 @@ The application expects an Excel file with the following structure:
 
 ## 📝 Usage
 
-1. Upload your mutual fund performance Excel file
+1. Upload your mutual fund performance Excel file from https://www.amfiindia.com/research-information/other-data/mf-scheme-performance-details
+  a. Go to this site
+  b. Select the fund category and date
+  image.png
+  c. Click on Go and download the excel to local drive
+  d. Upload this file on to app
 2. Select analysis type from the sidebar
 3. Explore interactive visualizations
 4. Export results for further analysis
