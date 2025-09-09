@@ -27,8 +27,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.title("📈 Mutual Fund Performance Analysis Dashboard")
-
 # Made in India section
 col1, col2 = st.columns([2, 1])
 with col2:
@@ -39,6 +37,8 @@ with col2:
         </h5>
     </div>
     """, unsafe_allow_html=True)
+
+st.title("📈 Mutual Fund Performance Analysis Dashboard")
 
 st.markdown("---")
 
