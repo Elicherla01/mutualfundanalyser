@@ -28,8 +28,8 @@ st.set_page_config(
 )
 
 # Made in India section
-col1, col2 = st.columns([2, 1])
-with col2:
+col1, col2 = st.columns([1, 2])
+with col1:
     st.markdown("""
     <div style="text-align: center; padding: 8px; border-radius: 8px; margin: 10px 0;">
         <h5 style="color: #000080; margin: 0; font-weight: bold;">
