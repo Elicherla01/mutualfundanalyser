@@ -30,13 +30,13 @@ st.set_page_config(
 st.title("📈 Mutual Fund Performance Analysis Dashboard")
 
 # Made in India section
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2 = st.columns([2, 1])
 with col2:
     st.markdown("""
-    <div style="text-align: center; padding: 10px; background: linear-gradient(90deg, #FF9933, #FFFFFF, #138808); border-radius: 10px; margin: 10px 0;">
-        <h4 style="color: #000080; margin: 0; font-weight: bold;">
+    <div style="text-align: center; padding: 8px; background: linear-gradient(90deg, rgba(255, 153, 51, 0.3), rgba(255, 255, 255, 0.3), rgba(19, 136, 8, 0.3)); border-radius: 8px; margin: 10px 0;">
+        <h5 style="color: #000080; margin: 0; font-weight: bold;">
             🇮🇳 Made in India for India 🇮🇳
-        </h4>
+        </h5>
     </div>
     """, unsafe_allow_html=True)
 
